@@ -1,0 +1,6 @@
+com\model\StudentInfo.class
+com\controller\StudentController.class
+com\dao\StudentDaoImpl.class
+com\dao\StudentDao.class
+com\util\HibernateUtil.class
+com\model\TeacherInfo.class

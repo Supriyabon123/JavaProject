@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<!-- Generated May 22, 2019 11:27:52 PM by Hibernate Tools 3.5.0.Final -->
+
+<hibernate-mapping>
+
+
+<class name="com.model.StudentInfo" table="student">
+
+
+<id name="StudentId" type="int">
+
+<column name="StudentId"/>
+
+<generator class="assigned"/>
+
+</id>
+
+
+<property name="FullName" type="java.lang.String">
+
+<column name="FullName"/>
+
+</property>
+
+
+<property name="Email" type="java.lang.String">
+
+<column name="Email"/>
+
+</property>
+
+
+<property name="PhoneNo" type="java.lang.String">
+
+<column name="PhoneNo"/>
+
+</property>
+
+
+<property name="Address" type="java.lang.String">
+
+<column name="Address"/>
+
+</property>
+
+
+<property name="Gender" type="java.lang.String">
+
+<column name="Gender"/>
+
+</property>
+
+
+<property name="Qualification" type="java.lang.String">
+
+<column name="Qualification"/>
+
+</property>
+
+
+<property name="Password" type="java.lang.String">
+
+<column name="Password"/>
+
+</property>
+
+</class>
+
+</hibernate-mapping>
